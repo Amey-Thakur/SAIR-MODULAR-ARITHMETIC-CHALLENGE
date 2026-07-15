@@ -7,6 +7,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch 2.0+](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C.svg)](https://pytorch.org/)
+[![Hugging Face](https://img.shields.io/badge/🤗_Model_Hub-SAIR_Modular_Arithmetic-FFD21E.svg)](https://huggingface.co/ameythakur/SAIR-Modular-Arithmetic-Challenge)
 
 Repository for the **SAIR Modular Arithmetic Challenge**. A laboratory investigating neural network induction of exact arithmetic logic, specifically modular multiplication ($(a \times b) \pmod{p}$), isolated from external symbolic modules or arbitrary precision math libraries.
 
