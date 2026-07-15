@@ -40,6 +40,6 @@ def generate_dataset(bits: int, count: int, op_type: str, output_file: str):
 
 if __name__ == "__main__":
     print("Generating Stage 3 Curriculum (16-bit)...")
-    generate_dataset(16, 10000, 'mul_only', '../data/curriculum/16bit_mul.jsonl')
-    generate_dataset(16, 10000, 'mul_mod', '../data/curriculum/16bit_mul_mod.jsonl')
+    generate_dataset(16, 10000, 'mul_only', 'data/curriculum/16bit_mul.jsonl')
+    generate_dataset(16, 10000, 'mul_mod', 'data/curriculum/16bit_mul_mod.jsonl')
     print("Done!")

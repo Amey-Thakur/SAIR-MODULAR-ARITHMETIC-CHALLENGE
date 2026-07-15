@@ -38,5 +38,5 @@ def generate_scratchpad_dataset(bits: int, count: int, output_file: str):
 
 if __name__ == "__main__":
     print("Generating Stage 4 Scratchpad Dataset (32-bit)...")
-    generate_scratchpad_dataset(32, 5000, '../data/scratchpads/32bit_scratch.jsonl')
+    generate_scratchpad_dataset(32, 5000, 'data/scratchpads/32bit_scratch.jsonl')
     print("Done!")
