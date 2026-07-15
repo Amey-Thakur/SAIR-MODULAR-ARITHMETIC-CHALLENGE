@@ -23,6 +23,15 @@ Standard transformers fail at exact arithmetic due to position and scale permuta
 3. **Algorithmic Emulation**: Forcing multi-layer state machines via autoregressive trace decoding (Scratchpads/Horner's method).
 4. **Dynamic Routing**: Mixture of Experts (MoE) dispatch logic bridging small and large modulo tiers.
 
+## Pre-trained Models (Hugging Face)
+
+The canonical weights derived from this research have been serialized and deployed to the Hugging Face Model Hub. The model leverages Abacus Embeddings to execute bit-serial algorithmic reasoning organically.
+
+**🤗 Model Repository**: [SAIR-Modular-Arithmetic-Challenge](https://huggingface.co/ameythakur/SAIR-Modular-Arithmetic-Challenge)
+
+- **Weights Format**: `.safetensors`
+- **Inference Integration**: Includes a custom `handler.py` for direct compatibility with the Hugging Face Inference API.
+
 ---
 
 ## Directory Architecture
