@@ -1,3 +1,14 @@
+# ==============================================================================
+# File: predict.py
+# Description: Core module for SAIR Modular Arithmetic Challenge.
+# Tech Stack: PyTorch 2.0+, Python 3.10+
+# Author: Amey Thakur
+# Profile: https://github.com/Amey-Thakur
+# Repository: https://github.com/Amey-Thakur/SAIR-MODULAR-ARITHMETIC-CHALLENGE
+# License: CC-BY-4.0
+# Date: 2026-07-15
+# ==============================================================================
+
 import torch
 import sys
 import os
