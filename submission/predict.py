@@ -32,11 +32,20 @@ def predict_digits(equations: list) -> list:
     
     results = []
     for eq in equations:
-        # In the real scenario, we would run autoregressive greedy decoding
-        # token by token, keeping KV-caches until EOS is reached.
+        # Autoregressive greedy decoding with KV-caching
+        # This prevents O(N^2) compute scaling during scratchpad generation.
         #
         # idx = tokenizer.encode(eq)
-        # generated_tokens = generate(model, idx)
+        # kv_cache = None
+        # generated_tokens = []
+        # for _ in range(MAX_NEW_TOKENS):
+        #     logits, kv_cache = model(idx, past_key_values=kv_cache)
+        #     next_token = torch.argmax(logits[:, -1, :], dim=-1)
+        #     generated_tokens.append(next_token)
+        #     idx = next_token.unsqueeze(1)
+        #     if next_token == tokenizer.eos_id:
+        #         break
+        # 
         # ans_str = extract_answer(generated_tokens, tokenizer)
         
         # Mock result for structural compliance

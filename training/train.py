@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
+from torch.utils.tensorboard import SummaryWriter
 import os
 import sys
 import math
@@ -32,14 +33,16 @@ def train():
     config = TransformerConfig(vocab_size=tokenizer.vocab_size, max_seq_len=64, d_model=128, n_heads=4, n_layers=2)
     model = BaselineTransformer(config).to(device)
     
-    # 3. Setup Optimizer
+    # 3. Setup Optimizer & Logger
     optimizer = torch.optim.AdamW(model.parameters(), lr=1e-3, weight_decay=1.0) # High WD for grokking
+    writer = SummaryWriter(log_dir='runs/sair_baseline')
     
     # 4. Training Loop (Just 1 epoch for verification)
     epochs = 1
     model.train()
     
     print("Starting training loop...")
+    global_step = 0
     for epoch in range(epochs):
         total_loss = 0
         for batch_idx, (x, y) in enumerate(dataloader):
@@ -56,14 +59,19 @@ def train():
             
             if batch_idx % 10 == 0:
                 print(f"Epoch {epoch} | Batch {batch_idx}/{len(dataloader)} | Loss: {loss.item():.4f}")
+                writer.add_scalar('Training/Loss', loss.item(), global_step)
                 
             # For CPU verification, we'll break early so we don't hang the system
             if device.type == 'cpu' and batch_idx == 5:
                 print("CPU verification run complete. Stopping early.")
                 break
                 
+            global_step += 1
+                
         print(f"Epoch {epoch} Average Loss: {total_loss / min(len(dataloader), 6 if device.type == 'cpu' else len(dataloader)):.4f}")
         
+    writer.close()
+    
     # Save checkpoint
     os.makedirs('models/checkpoints', exist_ok=True)
     torch.save(model.state_dict(), 'models/checkpoints/baseline_16bit.pt')
