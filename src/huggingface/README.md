@@ -19,31 +19,31 @@ license: cc-by-4.0
 
 ## Overview
 
-This repository hosts the canonical weights for the **SAIR Modular Arithmetic Challenge**. The model is an autoregressive transformer purpose-built to solve exact modular multiplication `(A × B) mod P` entirely organically, strictly avoiding hardcoded arithmetic logic, symbolic parsers, or external computation modules.
+This repository hosts the weights for the **SAIR Modular Arithmetic Challenge**. The model is an autoregressive transformer built to solve exact modular multiplication `(A × B) mod P` organically, without hardcoded arithmetic logic, symbolic parsers, or external computation modules.
 
-By enforcing rigid adherence to state-machine decoding, this research directly targets the "learnability wall" of transformer mathematics, achieving theoretical infinite length generalization.
+Using state-machine decoding, this research targets the learnability wall of transformer mathematics, achieving theoretical infinite length generalization.
 
 ---
 
-## Architectural Innovations
+## Architectural Methods
 
-To bypass the inherent spatial permutation failures of standard transformers, this model integrates three distinct architectural principles:
+To bypass the spatial limitations of standard transformers, this model uses three methods:
 
 ### 1. Abacus Significance Embeddings
-Standard transformers track coordinate positions (e.g., Token 3 is in Position 3). This model entirely strips coordinate embeddings, replacing them with **Mathematical Significance Injections**. Digits are routed based on their place-value (e.g., 100s, 10s, 1s), ensuring 1024-bit primes are processed through the exact same logic gates as 16-bit primes.
+Standard transformers track coordinate positions. This model strips coordinate embeddings, replacing them with Mathematical Significance Injections. Digits route based on their place-value, ensuring 1024-bit primes process through the exact same logic gates as 16-bit primes.
 
 ### 2. Algorithmic Scratchpads (Bit-Serial Decoding)
-The network operates as a recurrent state machine. By forcing the model to generate intermediate computational traces (Horner's method) autoregressively, the network allocates computation proportionally to integer complexity, mimicking a Turing machine's tape.
+The network operates as a recurrent state machine. By forcing the model to generate intermediate computational traces autoregressively, the network allocates computation proportionally to integer complexity, mimicking a Turing machine tape.
 
 ### 3. Grokking Phase Transitions
-The weights deployed here are captured *after* the grokking phase transition. The model was trained through thousands of delayed gradient steps beyond the initial validation plateau with extreme weight decay (WD=1.0), coercing the network to collapse memorization circuits into sparse mathematical algorithms.
+The weights deployed here were captured after the grokking phase transition. The model trained through thousands of delayed gradient steps beyond the initial validation plateau with extreme weight decay, forcing the network to collapse memorization circuits into sparse mathematical algorithms.
 
 ---
 
-## Inference Contract
+## Inference Format
 
-This model is constrained by a strict execution sandbox. 
-If prompted with an equation, it will sequentially emit the step-by-step logic trace before terminating natively with the final matrix node.
+This model requires a specific execution format. 
+If prompted with an equation, it sequentially emits the step-by-step logic trace before terminating natively with the final matrix node.
 
 **Input Format**: Character-level ASCII equations.
 ```text
@@ -66,9 +66,9 @@ If prompted with an equation, it will sequentially emit the step-by-step logic t
 
 ---
 
-## Citations & Laboratory
+## Citations and Laboratory
 
-This model is an isolated deployment artifact. The complete research laboratory—containing the synthetic data generators, the curriculum training loops, the AST sandbox validators, and the `AbacusLayer` PyTorch implementations—is entirely open-source.
+This model is an isolated artifact. The complete research laboratory - containing the synthetic data generators, the training loops, the sandbox validators, and the PyTorch implementations - is open-source.
 
 **Official Research Repository**:  
 [SAIR-MODULAR-ARITHMETIC-CHALLENGE](https://github.com/Amey-Thakur/SAIR-MODULAR-ARITHMETIC-CHALLENGE)

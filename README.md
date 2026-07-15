@@ -9,7 +9,7 @@
 [![PyTorch 2.0+](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C.svg)](https://pytorch.org/)
 [![Hugging Face](https://img.shields.io/badge/🤗_Model_Hub-SAIR_Modular_Arithmetic-FFD21E.svg)](https://huggingface.co/ameythakur/SAIR-Modular-Arithmetic-Challenge)
 
-Repository for the **SAIR Modular Arithmetic Challenge**. A laboratory investigating neural network induction of exact arithmetic logic, specifically modular multiplication ($(a \times b) \pmod{p}$), isolated from external symbolic modules or arbitrary precision math libraries.
+Repository for the **SAIR Modular Arithmetic Challenge**. A laboratory testing neural network induction of exact arithmetic logic, specifically modular multiplication `(a × b) mod p`, isolated from external symbolic modules or arbitrary precision math libraries.
 
 > **Related Challenge**: [SAIR-MATHEMATICS-DISTILLATION-CHALLENGE](https://github.com/Amey-Thakur/SAIR-MATHEMATICS-DISTILLATION-CHALLENGE)
 
@@ -17,15 +17,15 @@ Repository for the **SAIR Modular Arithmetic Challenge**. A laboratory investiga
 
 ## Research Scope
 
-Standard transformers fail at exact arithmetic due to position and scale permutation. We investigate:
-1. **Grokking**: Validation loss phase transitions over delayed gradient trajectories.
+Standard transformers fail at exact arithmetic due to position and scale permutation. We test:
+1. **Grokking**: Validation loss phase transitions over delayed gradient steps.
 2. **Abacus Embeddings**: Eliminating absolute spatial coordinates in favor of mathematical place-value significance to achieve perfect length generalization.
-3. **Algorithmic Emulation**: Forcing multi-layer state machines via autoregressive trace decoding (Scratchpads/Horner's method).
+3. **Algorithmic Emulation**: Forcing multi-layer state machines via autoregressive trace decoding (Scratchpads).
 4. **Dynamic Routing**: Mixture of Experts (MoE) dispatch logic bridging small and large modulo tiers.
 
 ## Pre-trained Models (Hugging Face)
 
-The canonical weights derived from this research have been serialized and deployed to the Hugging Face Model Hub. The model leverages Abacus Embeddings to execute bit-serial algorithmic reasoning organically.
+The weights derived from this research have been serialized and deployed to the Hugging Face Model Hub. The model uses Abacus Embeddings to execute bit-serial algorithmic reasoning organically.
 
 **🤗 Model Repository**: [SAIR-Modular-Arithmetic-Challenge](https://huggingface.co/ameythakur/SAIR-Modular-Arithmetic-Challenge)
 
@@ -58,6 +58,7 @@ The canonical weights derived from this research have been serialized and deploy
 ---
 
 ## Acknowledgements
+
 - **SAIR**: Challenge infrastructure.
 - **Power et al.**: Grokking foundations.
 - **McLeish et al.**: Abacus Embeddings logic.
