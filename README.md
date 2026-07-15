@@ -12,7 +12,7 @@ Welcome to the long-term research repository for the **SAIR Modular Arithmetic C
 
 ---
 
-## 🎯 Repository Purpose & Research Goals
+## Repository Purpose & Research Goals
 
 This repository is **NOT** just a code dump; it is a structured research environment. Our core objective is to bypass the "learnability wall" where standard transformers fail at arithmetic logic.
 
@@ -24,7 +24,7 @@ We are specifically investigating:
 
 ---
 
-## 🗺️ Directory Architecture
+## Directory Architecture
 
 The repository is modularized around the machine learning lifecycle: theory, data, design, execution, validation, and publication.
 
@@ -43,7 +43,7 @@ The repository is modularized around the machine learning lifecycle: theory, dat
 
 ---
 
-## 📖 Reading Order
+## Reading Order
 
 To understand this project, we recommend following the [Documentation Reading Guide](./docs/README.md), which sequences the theoretical foundations before diving into the roadmaps.
 
@@ -51,7 +51,7 @@ To understand this project, we recommend following the [Documentation Reading Gu
 
 ---
 
-## 🔬 Model Development Workflow
+## Model Development Workflow
 
 1. **Formulate Hypothesis**: Logged in [`planning/experiment_roadmap.md`](./planning/experiment_roadmap.md).
 2. **Generate Data**: Use `datasets/generators/` to create the appropriate curriculum.
@@ -61,14 +61,14 @@ To understand this project, we recommend following the [Documentation Reading Gu
 
 ---
 
-## 🤝 Contribution Guide
+## Contribution Guide
 
 This is an active research hub. 
 - All experiments must be accompanied by loss curve logs and an explicit configuration.
 - Do not commit directly to `main`. Create feature branches (`feat/char-tokenizer`, `exp/alibi-ablation`).
 - Follow the Markdown-first philosophy: document the math before writing the PyTorch code.
 
-## 📚 Acknowledgements
+## Acknowledgements
 - **SAIR**: For hosting the Modular Arithmetic Challenge.
 - **Power et al. (OpenAI)**: For the foundational work on Grokking.
 - **Nanda et al.**: For mechanistic interpretability of modular addition.
