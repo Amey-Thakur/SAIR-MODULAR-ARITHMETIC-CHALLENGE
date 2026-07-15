@@ -74,3 +74,53 @@ class Base10Tokenizer:
             chars.append(self.id_to_char.get(token_id, ""))
             
         return "".join(chars)
+
+    def calculate_significance(self, text: str) -> List[int]:
+        """
+        Calculates the place-value significance of each character in a math string.
+        Example: '123*45' ->
+        1 (100s -> 2), 2 (10s -> 1), 3 (1s -> 0)
+        * (-1)
+        4 (10s -> 1), 5 (1s -> 0)
+        """
+        significance = []
+        
+        # Split string by non-digit characters to isolate numbers
+        import re
+        # Find all numbers and their spans
+        spans = [(m.start(), m.end()) for m in re.finditer(r'\d+', text)]
+        
+        # Default all to -1 (special characters)
+        significance = [-1] * len(text)
+        
+        for start, end in spans:
+            num_len = end - start
+            for i in range(num_len):
+                # Significance is length - 1 - index
+                # E.g. length 3, index 0 -> significance 2
+                significance[start + i] = num_len - 1 - i
+                
+        return significance
+
+    def encode_with_significance(self, text: str, add_bos: bool = True, add_eos: bool = True) -> dict:
+        """Encodes text and returns both token IDs and significance indices."""
+        tokens = []
+        sigs = []
+        
+        char_sigs = self.calculate_significance(text)
+        
+        if add_bos:
+            tokens.append(self.bos_id)
+            sigs.append(-2) # Special significance for BOS
+            
+        for idx, char in enumerate(text):
+            if char not in self.char_to_id:
+                raise ValueError(f"Character '{char}' not in vocabulary.")
+            tokens.append(self.char_to_id[char])
+            sigs.append(char_sigs[idx])
+            
+        if add_eos:
+            tokens.append(self.eos_id)
+            sigs.append(-3) # Special significance for EOS
+            
+        return {"input_ids": tokens, "significance": sigs}

@@ -38,7 +38,7 @@ class HybridRouter(nn.Module):
         bits = lengths * 3.322 
         return bits
 
-    def forward(self, idx: torch.Tensor, targets: torch.Tensor = None) -> Tuple[torch.Tensor, torch.Tensor]:
+    def forward(self, idx: torch.Tensor, significance: torch.Tensor = None, targets: torch.Tensor = None) -> Tuple[torch.Tensor, torch.Tensor]:
         """
         Routes the batch to the appropriate expert.
         For simplicity in this research stub, we route the ENTIRE batch 
@@ -48,8 +48,8 @@ class HybridRouter(nn.Module):
         max_bits = bits.max().item()
         
         if max_bits < self.max_bits_threshold:
-            # Route to fast Grokking network
-            return self.baseline_expert(idx, targets)
+            # Route to fast Grokking network (Abacus Transformer)
+            return self.baseline_expert(idx, significance, targets)
         else:
             # Route to algorithmic scratchpad network
             return self.algorithmic_expert(idx, targets)
