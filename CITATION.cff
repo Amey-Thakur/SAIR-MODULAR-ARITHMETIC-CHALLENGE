@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software or architecture design, please cite it as below."
+authors:
+- family-names: "Thakur"
+  given-names: "Amey"
+title: "SAIR Modular Arithmetic Challenge: Abacus Generalization"
+version: 1.0.0
+date-released: 2026-07-15
+url: "https://github.com/Amey-Thakur/SAIR-MODULAR-ARITHMETIC-CHALLENGE"
+repository-code: "https://github.com/Amey-Thakur/SAIR-MODULAR-ARITHMETIC-CHALLENGE"
+license: "CC-BY-4.0"
+abstract: >
+  A complete research laboratory for solving modular arithmetic 
+  equations utilizing Abacus Embeddings, Input Injection, and 
+  Bit-Serial Algorithmic Decoders (Scratchpads) to achieve 
+  perfect length generalization without external logic modules.
+keywords:
+  - machine-learning
+  - length-generalization
+  - abacus-embeddings
+  - grokking
+  - modular-arithmetic

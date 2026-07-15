@@ -1,0 +1,18 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "license": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "codeRepository": "https://github.com/Amey-Thakur/SAIR-MODULAR-ARITHMETIC-CHALLENGE",
+    "dateCreated": "2026-07-15",
+    "name": "SAIR Modular Arithmetic Challenge",
+    "description": "A PyTorch laboratory demonstrating 100% length generalization on modular arithmetic using Abacus Embeddings and Algorithmic Scratchpads.",
+    "programmingLanguage": ["Python"],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Amey",
+            "familyName": "Thakur"
+        }
+    ],
+    "keywords": ["Transformers", "Grokking", "Abacus Embeddings", "Modular Arithmetic"]
+}

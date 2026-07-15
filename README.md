@@ -1,6 +1,6 @@
 # SAIR Modular Arithmetic Challenge
 
-![SAIR Modular Arithmetic Challenge Research Repository](./branding/social_preview.png)
+![SAIR Modular Arithmetic Challenge Research Repository](./social_preview.png)
 
 **Prepared by**: [Amey Thakur](https://github.com/Amey-Thakur)
 
@@ -10,68 +10,49 @@
 
 Welcome to the long-term research repository for the **SAIR Modular Arithmetic Challenge**. This repository acts as a comprehensive laboratory for investigating how neural networks can organically learn mathematically rigid operations like modular multiplication ($(a \times b) \pmod{p}$) without relying on hard-coded symbolic logic.
 
+> **Related Challenge**: See my other formal reasoning solution repository: [SAIR-MATHEMATICS-DISTILLATION-CHALLENGE](https://github.com/Amey-Thakur/SAIR-MATHEMATICS-DISTILLATION-CHALLENGE).
+
 ---
 
 ## Repository Purpose & Research Goals
 
-This repository is **NOT** just a code dump; it is a structured research environment. Our core objective is to bypass the "learnability wall" where standard transformers fail at arithmetic logic.
-
-We are specifically investigating:
+Our core objective is to bypass the "learnability wall" where standard transformers fail at arithmetic logic. We are specifically investigating:
 1. **Grokking**: Phase transitions in validation loss during prolonged training.
-2. **Algorithmic Emulation**: Teaching models to act as state machines by generating autoregressive "scratchpads" (e.g., Horner's method).
-3. **Representation Learning**: Analyzing the impact of Base-10 vs. Base-2 vs. Base-256 tokenization on sequence length generalization.
-4. **Dynamic Routing**: Building experts that can adaptively solve 16-bit primes vs 1024-bit primes based on computational budget.
+2. **Abacus Embeddings**: Implementing state-of-the-art significance embedding injection for 100% theoretical length generalization.
+3. **Algorithmic Emulation**: Teaching models to act as state machines by generating autoregressive "scratchpads" (e.g., Horner's method).
+4. **Dynamic Routing**: Building expert models that can adaptively solve 16-bit primes vs 1024-bit primes based on computational budget.
 
 ---
 
 ## Directory Architecture
 
-The repository is modularized around the machine learning lifecycle: theory, data, design, execution, validation, and publication.
+The repository is organized directly into `src` for operational code and `docs` for research.
 
-*   **[`docs/`](./docs/)**: Core architectural decisions and documentation root.
-*   **[`competition/`](./competition/)**: Strict rules, sandbox constraints, and leaderboard strategies.
-*   **[`research/`](./research/) & [`literature/`](./literature/)**: Theoretical knowledge base and paper summaries.
-*   **[`planning/`](./planning/)**: Strategic roadmaps for experiments and modeling.
-*   **[`datasets/`](./datasets/)**: Synthetic data generators for large prime arithmetic.
-*   **[`architectures/`](./architectures/)**: Neural network definitions (e.g., standard transformers, ALiBi, routers).
-*   **[`tokenization/`](./tokenization/)**: Digit, byte, and bit-level string processing.
-*   **[`training/`](./training/) & [`experiments/`](./experiments/)**: Loop implementations, configs, and isolated trial archives.
-*   **[`evaluation_pipeline/`](./evaluation_pipeline/) & [`sandbox/`](./sandbox/)**: Local mock of the strict SAIR judge (AST behavioral checks).
-*   **[`submission/`](./submission/)**: Artifacts formatted explicitly for the competition constraints.
-*   **[`huggingface/`](./huggingface/)**: Placeholders and model cards for final community release.
-*   **[`branding/`](./branding/)**: Visual identity, SVGs, and diagram resources.
-
----
-
-## Reading Order
-
-To understand this project, we recommend following the [Documentation Reading Guide](./docs/README.md), which sequences the theoretical foundations before diving into the roadmaps.
-
-*If you are looking for how to run the code, please note this repository is currently in the **Planning Phase**. Implementation of the PyTorch architectures is pending.*
+*   **[`docs/`](./docs/)**: Core architectural decisions, competition constraints, literature reviews, and published summaries.
+*   **[`src/architectures/`](./src/architectures/)**: Neural network definitions (e.g., standard transformers, the Abacus Transformer, and Routers).
+*   **[`src/datasets/`](./src/datasets/)**: Synthetic data generators for large prime arithmetic.
+*   **[`src/tokenization/`](./src/tokenization/)**: Digit, byte, and significance-level tokenization for Abacus mappings.
+*   **[`src/training/`](./src/training/)**: PyTorch execution loops, TensorBoard logging, and Dataset streaming.
+*   **[`src/evaluation/`](./src/evaluation/)**: Autoregressive exact-match decoding metrics.
+*   **[`src/sandbox/`](./src/sandbox/)**: Local mock of the strict SAIR judge (AST behavioral checks blocking `%` operators).
+*   **[`src/submission/`](./src/submission/)**: Artifacts formatted explicitly for the competition constraints.
+*   **[`src/huggingface/`](./src/huggingface/)**: Scripts for deployment and model cards for final community release.
 
 ---
 
 ## Model Development Workflow
 
-1. **Formulate Hypothesis**: Logged in [`planning/experiment_roadmap.md`](./planning/experiment_roadmap.md).
-2. **Generate Data**: Use `datasets/generators/` to create the appropriate curriculum.
-3. **Train & Ablate**: Run isolated trials in `experiments/active/`.
-4. **Evaluate Locally**: Pass the model through `sandbox/simulate_judge.py` to ensure it adheres to the strict inference contract (no `%` operators allowed).
-5. **Publish**: Prepare weights via `submission/` and document on the `huggingface/` hub.
+1. **Generate Data**: Use `src/datasets/generators/` to create the appropriate curriculum.
+2. **Train & Ablate**: Run `src/training/train.py` to observe phase transitions.
+3. **Evaluate Locally**: Pass the model through `src/sandbox/simulate_judge.py` to ensure it adheres to the strict inference contract.
+4. **Publish**: Prepare weights via `src/submission/` and document on the Hugging Face hub.
 
 ---
-
-## Contribution Guide
-
-This is an active research hub. 
-- All experiments must be accompanied by loss curve logs and an explicit configuration.
-- Do not commit directly to `main`. Create feature branches (`feat/char-tokenizer`, `exp/alibi-ablation`).
-- Follow the Markdown-first philosophy: document the math before writing the PyTorch code.
 
 ## Acknowledgements
 - **SAIR**: For hosting the Modular Arithmetic Challenge.
 - **Power et al. (OpenAI)**: For the foundational work on Grokking.
-- **Nanda et al.**: For mechanistic interpretability of modular addition.
+- **McLeish et al.**: For the breakthrough Abacus Embeddings architecture.
 
 ---
 *Built with rigor, designed for discovery.*
