@@ -9,7 +9,7 @@
 [![PyTorch 2.0+](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C.svg)](https://pytorch.org/)
 [![Hugging Face](https://img.shields.io/badge/🤗_Model_Hub-SAIR_Modular_Arithmetic-FFD21E.svg)](https://huggingface.co/ameythakur/SAIR-Modular-Arithmetic-Challenge)
 
-Repository for the **SAIR Modular Arithmetic Challenge**. A laboratory testing neural network induction of exact arithmetic logic, specifically modular multiplication `(a × b) mod p`, isolated from external symbolic modules or arbitrary precision math libraries.
+Repository for the **SAIR Modular Arithmetic Challenge**. A laboratory for neural network induction of exact arithmetic logic, specifically modular multiplication `(a × b) mod p`, isolated from external symbolic modules or arbitrary precision math libraries.
 
 > **Related Challenge**: [SAIR-MATHEMATICS-DISTILLATION-CHALLENGE](https://github.com/Amey-Thakur/SAIR-MATHEMATICS-DISTILLATION-CHALLENGE)
 
@@ -17,7 +17,7 @@ Repository for the **SAIR Modular Arithmetic Challenge**. A laboratory testing n
 
 ## Research Scope
 
-Standard transformers fail at exact arithmetic due to position and scale permutation. We test:
+Standard transformers fail at exact arithmetic due to position and scale permutation. This repository implements:
 1. **Grokking**: Validation loss phase transitions over delayed gradient steps.
 2. **Abacus Embeddings**: Eliminating absolute spatial coordinates in favor of mathematical place-value significance to achieve perfect length generalization.
 3. **Algorithmic Emulation**: Forcing multi-layer state machines via autoregressive trace decoding (Scratchpads).
