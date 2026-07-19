@@ -8,7 +8,7 @@ Modular arithmetic, specifically $(A \times B) \pmod{P}$, requires both vast num
 
 Our laboratory introduces a three-tiered curriculum:
 1. **The Grokking Baseline**: Heavy weight-decay, delayed optimization phase transitions, and RoPE positional encodings to induce true mathematical structures in the network's latent space for small (16-32 bit) equations.
-2. **The Algorithmic Decoder**: Instead of outputting the result directly, the model is trained to output a "Scratchpad" – a step-by-step arithmetic trace mimicking Horner's Method.
+2. **The Algorithmic Decoder**: Instead of outputting the result directly, the model is trained to output a "Scratchpad" - a step-by-step arithmetic trace mimicking Horner's Method.
 3. **The Mixed-Radix Router**: An MoE (Mixture of Experts) router that dynamically delegates to the baseline for fast computation or the algorithmic decoder for extensive logical sequences.
 
 ## 2. Experimental Setup
