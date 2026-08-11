@@ -1,6 +1,6 @@
 # SAIR Modular Arithmetic Challenge
 
-![SAIR Modular Arithmetic Challenge Research Repository](./social_preview.png)
+![SAIR Modular Arithmetic Challenge Research Repository](./.github/social-preview.png)
 
 **Prepared by**: [Amey Thakur](https://github.com/Amey-Thakur)
 

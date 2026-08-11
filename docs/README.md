@@ -14,23 +14,19 @@ Understand how this repository is structured and why.
 
 ### 2. The Challenge
 Understand the strict rules, constraints, and evaluation methods of the competition.
-- [Competition Analysis](../competition/analysis.md)
-- [Leaderboard Recommendations](../competition/recommendations.md)
+- [Competition Analysis](./competition/analysis.md)
+- [Leaderboard Recommendations](./competition/recommendations.md)
 
 ### 3. Theory & Literature
 Understand the mathematics and the current state-of-the-art in neural algorithmic learning.
-- [Literature Review](../literature/review.md)
-- [Research Knowledge Base](../research/knowledge_base.md)
-- [Open Research Questions](../research/open_questions.md)
+- [Literature Review](./literature/review.md)
+- [Research Knowledge Base](./research/knowledge_base.md)
+- [Open Research Questions](./research/open_questions.md)
 
 ### 4. Roadmaps
 Understand the path from theory to a deployed Hugging Face model.
-- [Model Research Roadmap](../planning/model_roadmap.md)
-- [Experiment Roadmap](../planning/experiment_roadmap.md)
-- [Dataset Roadmap](../datasets/dataset_roadmap.md)
-- [Submission Roadmap](../submission/submission_roadmap.md)
-- [Future Milestones](../planning/milestones.md)
+- [Dataset Roadmap](../src/datasets/dataset_roadmap.md)
+- [Submission Roadmap](../src/submission/submission_roadmap.md)
 
-### 5. Implementation (Placeholders)
-- [Branding Plan](../branding/branding_plan.md)
-- [Hugging Face Integration](../huggingface/integration_plan.md)
+### 5. Implementation
+- [Hugging Face Integration](../src/huggingface/integration_plan.md)
