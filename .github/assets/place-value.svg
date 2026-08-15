@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 430" width="1100" height="430" role="img" aria-label="The same digit receives a different absolute position when the operand is padded, but the same place value, which is why place-value embeddings generalise to longer inputs">
+<rect width="1100" height="430" fill="#FAFBFC"/>
+<text x="72" y="52" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="12" fill="#3949AB" font-weight="600" text-anchor="start" letter-spacing="0.34em">LENGTH GENERALISATION</text>
+<text x="72" y="80" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" fill="#12141A" font-weight="600" text-anchor="start">The same digit, told two different things</text>
+<text x="72" y="128" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#12141A" font-weight="600" text-anchor="start">Absolute position: counts from the left</text>
+<text x="72" y="146" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" fill="#4A5663" font-weight="600" text-anchor="start">operand as written</text>
+<rect x="72" y="160" width="30" height="30" rx="4" fill="#3949AB" opacity="0.12"/>
+<text x="87.0" y="181" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#12141A" font-weight="500" text-anchor="middle">4</text>
+<text x="87.0" y="208" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#3949AB" font-weight="500" text-anchor="middle">0</text>
+<rect x="106" y="160" width="30" height="30" rx="4" fill="#3949AB" opacity="0.12"/>
+<text x="121.0" y="181" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#12141A" font-weight="500" text-anchor="middle">8</text>
+<text x="121.0" y="208" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#3949AB" font-weight="500" text-anchor="middle">1</text>
+<rect x="140" y="160" width="30" height="30" rx="4" fill="#3949AB" opacity="0.12"/>
+<text x="155.0" y="181" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#12141A" font-weight="500" text-anchor="middle">2</text>
+<text x="155.0" y="208" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#3949AB" font-weight="500" text-anchor="middle">2</text>
+<rect x="174" y="160" width="30" height="30" rx="4" fill="#3949AB" opacity="0.12"/>
+<text x="189.0" y="181" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#12141A" font-weight="500" text-anchor="middle">1</text>
+<text x="189.0" y="208" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#3949AB" font-weight="500" text-anchor="middle">3</text>
+<text x="72" y="226" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" fill="#4A5663" font-weight="600" text-anchor="start">the same operand, padded</text>
+<rect x="72" y="240" width="30" height="30" rx="4" fill="#6B7684" opacity="0.05"/>
+<text x="87.0" y="261" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#6B7684" font-weight="500" text-anchor="middle">0</text>
+<text x="87.0" y="288" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#6B7684" font-weight="500" text-anchor="middle">0</text>
+<rect x="106" y="240" width="30" height="30" rx="4" fill="#6B7684" opacity="0.05"/>
+<text x="121.0" y="261" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#6B7684" font-weight="500" text-anchor="middle">0</text>
+<text x="121.0" y="288" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#6B7684" font-weight="500" text-anchor="middle">1</text>
+<rect x="140" y="240" width="30" height="30" rx="4" fill="#6B7684" opacity="0.05"/>
+<text x="155.0" y="261" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#6B7684" font-weight="500" text-anchor="middle">0</text>
+<text x="155.0" y="288" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#6B7684" font-weight="500" text-anchor="middle">2</text>
+<rect x="174" y="240" width="30" height="30" rx="4" fill="#6B7684" opacity="0.05"/>
+<text x="189.0" y="261" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#6B7684" font-weight="500" text-anchor="middle">0</text>
+<text x="189.0" y="288" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#6B7684" font-weight="500" text-anchor="middle">3</text>
+<rect x="208" y="240" width="30" height="30" rx="4" fill="#6B7684" opacity="0.05"/>
+<text x="223.0" y="261" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#6B7684" font-weight="500" text-anchor="middle">0</text>
+<text x="223.0" y="288" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#6B7684" font-weight="500" text-anchor="middle">4</text>
+<rect x="242" y="240" width="30" height="30" rx="4" fill="#6B7684" opacity="0.05"/>
+<text x="257.0" y="261" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#6B7684" font-weight="500" text-anchor="middle">0</text>
+<text x="257.0" y="288" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#6B7684" font-weight="500" text-anchor="middle">5</text>
+<rect x="276" y="240" width="30" height="30" rx="4" fill="#6B7684" opacity="0.05"/>
+<text x="291.0" y="261" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#6B7684" font-weight="500" text-anchor="middle">0</text>
+<text x="291.0" y="288" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#6B7684" font-weight="500" text-anchor="middle">6</text>
+<rect x="310" y="240" width="30" height="30" rx="4" fill="#3949AB" opacity="0.12"/>
+<text x="325.0" y="261" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#12141A" font-weight="500" text-anchor="middle">4</text>
+<text x="325.0" y="288" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#3949AB" font-weight="500" text-anchor="middle">7</text>
+<rect x="344" y="240" width="30" height="30" rx="4" fill="#3949AB" opacity="0.12"/>
+<text x="359.0" y="261" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#12141A" font-weight="500" text-anchor="middle">8</text>
+<text x="359.0" y="288" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#3949AB" font-weight="500" text-anchor="middle">8</text>
+<rect x="378" y="240" width="30" height="30" rx="4" fill="#3949AB" opacity="0.12"/>
+<text x="393.0" y="261" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#12141A" font-weight="500" text-anchor="middle">2</text>
+<text x="393.0" y="288" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#3949AB" font-weight="500" text-anchor="middle">9</text>
+<rect x="412" y="240" width="30" height="30" rx="4" fill="#3949AB" opacity="0.12"/>
+<text x="427.0" y="261" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#12141A" font-weight="500" text-anchor="middle">1</text>
+<text x="427.0" y="288" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#3949AB" font-weight="500" text-anchor="middle">10</text>
+<text x="466" y="178" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" fill="#CF222E" font-weight="400" text-anchor="start">the 4 is at index 0</text>
+<text x="466" y="258" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" fill="#CF222E" font-weight="400" text-anchor="start">now the 4 is at index 7</text>
+<text x="72" y="322" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" fill="#12141A" font-weight="600" text-anchor="start">Place value: counts from the right</text>
+<text x="72" y="340" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" fill="#4A5663" font-weight="600" text-anchor="start">the same padded operand</text>
+<rect x="72" y="354" width="30" height="30" rx="4" fill="#6B7684" opacity="0.05"/>
+<text x="87.0" y="375" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#6B7684" font-weight="500" text-anchor="middle">0</text>
+<text x="87.0" y="402" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#6B7684" font-weight="500" text-anchor="middle">10</text>
+<rect x="106" y="354" width="30" height="30" rx="4" fill="#6B7684" opacity="0.05"/>
+<text x="121.0" y="375" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#6B7684" font-weight="500" text-anchor="middle">0</text>
+<text x="121.0" y="402" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#6B7684" font-weight="500" text-anchor="middle">9</text>
+<rect x="140" y="354" width="30" height="30" rx="4" fill="#6B7684" opacity="0.05"/>
+<text x="155.0" y="375" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#6B7684" font-weight="500" text-anchor="middle">0</text>
+<text x="155.0" y="402" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#6B7684" font-weight="500" text-anchor="middle">8</text>
+<rect x="174" y="354" width="30" height="30" rx="4" fill="#6B7684" opacity="0.05"/>
+<text x="189.0" y="375" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#6B7684" font-weight="500" text-anchor="middle">0</text>
+<text x="189.0" y="402" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#6B7684" font-weight="500" text-anchor="middle">7</text>
+<rect x="208" y="354" width="30" height="30" rx="4" fill="#6B7684" opacity="0.05"/>
+<text x="223.0" y="375" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#6B7684" font-weight="500" text-anchor="middle">0</text>
+<text x="223.0" y="402" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#6B7684" font-weight="500" text-anchor="middle">6</text>
+<rect x="242" y="354" width="30" height="30" rx="4" fill="#6B7684" opacity="0.05"/>
+<text x="257.0" y="375" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#6B7684" font-weight="500" text-anchor="middle">0</text>
+<text x="257.0" y="402" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#6B7684" font-weight="500" text-anchor="middle">5</text>
+<rect x="276" y="354" width="30" height="30" rx="4" fill="#6B7684" opacity="0.05"/>
+<text x="291.0" y="375" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#6B7684" font-weight="500" text-anchor="middle">0</text>
+<text x="291.0" y="402" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#6B7684" font-weight="500" text-anchor="middle">4</text>
+<rect x="310" y="354" width="30" height="30" rx="4" fill="#3949AB" opacity="0.12"/>
+<text x="325.0" y="375" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#12141A" font-weight="500" text-anchor="middle">4</text>
+<text x="325.0" y="402" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#3949AB" font-weight="500" text-anchor="middle">3</text>
+<rect x="344" y="354" width="30" height="30" rx="4" fill="#3949AB" opacity="0.12"/>
+<text x="359.0" y="375" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#12141A" font-weight="500" text-anchor="middle">8</text>
+<text x="359.0" y="402" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#3949AB" font-weight="500" text-anchor="middle">2</text>
+<rect x="378" y="354" width="30" height="30" rx="4" fill="#3949AB" opacity="0.12"/>
+<text x="393.0" y="375" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#12141A" font-weight="500" text-anchor="middle">2</text>
+<text x="393.0" y="402" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#3949AB" font-weight="500" text-anchor="middle">1</text>
+<rect x="412" y="354" width="30" height="30" rx="4" fill="#3949AB" opacity="0.12"/>
+<text x="427.0" y="375" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="16" fill="#12141A" font-weight="500" text-anchor="middle">1</text>
+<text x="427.0" y="402" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="11" fill="#3949AB" font-weight="500" text-anchor="middle">0</text>
+<text x="466" y="372" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" fill="#2EA043" font-weight="400" text-anchor="start">the 4 keeps significance 3</text>
+<text x="72" y="420" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" fill="#6B7684" font-weight="400" text-anchor="start">A model trained on short operands has never seen index 7. It has seen significance 3 on every example.</text>
+</svg>

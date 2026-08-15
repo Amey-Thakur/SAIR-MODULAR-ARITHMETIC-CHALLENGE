@@ -8,3 +8,11 @@ title: "SAIR Modular Arithmetic Challenge: Abacus Generalization"
 version: 1.0.0
 date-released: 2026-07-15
 url: "https://github.com/Amey-Thakur/SAIR-MODULAR-ARITHMETIC-CHALLENGE"
+repository-code: "https://github.com/Amey-Thakur/SAIR-MODULAR-ARITHMETIC-CHALLENGE"
+license: CC-BY-4.0
+keywords:
+  - modular arithmetic
+  - length generalization
+  - abacus embeddings
+  - grokking
+  - transformers
