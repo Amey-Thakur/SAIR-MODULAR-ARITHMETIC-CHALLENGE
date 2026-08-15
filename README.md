@@ -1,8 +1,8 @@
 <div align="center">
 
-<br>
+<a href="https://competition.sair.foundation/competitions/modular-arithmetic-challenge/overview" title="SAIR Foundation, open the competition"><img src=".github/assets/sair-mark.png" alt="SAIR Foundation mark, links to the competition" width="76"></a>
 
-# SAIR Modular Arithmetic Challenge
+# Modular Arithmetic Challenge
 
 **Can a neural network learn exact arithmetic, rather than approximate it?**
 
