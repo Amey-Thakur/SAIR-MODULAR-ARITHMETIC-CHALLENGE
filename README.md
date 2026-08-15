@@ -1,8 +1,5 @@
 <div align="center">
 
-<img src=".github/social-preview.png" alt="SAIR Modular Arithmetic Challenge, neural induction of exact (a x b) mod p" width="100%">
-
-<br>
 <br>
 
 # SAIR Modular Arithmetic Challenge
@@ -32,6 +29,8 @@ the laboratory that question was worked in, and the model it produced.
 [![License](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey)](LICENSE)
 
 <br>
+
+<img src=".github/social-preview.png" alt="SAIR Modular Arithmetic Challenge: neural induction of exact (a x b) mod p through grokking, abacus embeddings and algorithmic scratchpads" width="100%">
 
 </div>
 
