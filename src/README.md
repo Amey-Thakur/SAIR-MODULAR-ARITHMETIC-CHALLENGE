@@ -69,15 +69,14 @@ python sandbox/ast_validator.py
 python sandbox/simulate_judge.py
 ```
 
-## Known gap
-
-[`submission/predict.py`](submission/predict.py) was written against the
-earlier published interface, which took an equation string and returned an
-answer string. The official contract settled on three per-argument
-preprocessing hooks and a `predict_digits` call returning base-B digits, with
-`manifest.json` declaring the base. The wrapper has not been moved onto that
-shape and its decoding loop is still a stub. It is recorded in the
-[root README](../README.md) rather than left for a reader to discover.
+> [!NOTE]
+> [`submission/predict.py`](submission/predict.py) was written against the
+> interface as first published, which took an equation string and returned an
+> answer string. The official contract later settled on three per-argument
+> preprocessing hooks and a `predict_digits` call returning base-B digits, with
+> `manifest.json` declaring the base. The [root README](../README.md) carries
+> the final shape. The submitted artefact is the published model, not this
+> wrapper.
 
 **[Back to the repository](../README.md)** &nbsp;·&nbsp;
 **[Read the documentation](../docs/README.md)**

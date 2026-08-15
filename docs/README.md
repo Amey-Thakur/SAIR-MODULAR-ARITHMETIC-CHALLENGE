@@ -34,8 +34,7 @@ Each one answers a question the next one depends on.
 > These two were written from the rules as published at the time. The official
 > interface later settled into three per-argument preprocessing hooks and a
 > `predict_digits` call that returns base-B digits, with the decoder owned by
-> the pipeline. The [root README](../README.md) carries the current shape, and
-> the difference is recorded there under *Where this stands*.
+> the pipeline. The [root README](../README.md) carries the final shape.
 
 ## 3. The mathematics and the prior work
 
