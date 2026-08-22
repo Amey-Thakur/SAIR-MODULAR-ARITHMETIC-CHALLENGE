@@ -30,7 +30,7 @@ the laboratory that question was worked in, and the model it produced.
 
 <br>
 
-<img src=".github/assets/modular-arithmetic.gif" alt="Two 60-digit integers and a prime streaming into a small network, with the exact product modulo p resolving digit by digit." width="100%">
+<a href="https://github.com/Amey-Thakur" title="Amey Thakur on GitHub"><img src=".github/assets/modular-arithmetic.gif" alt="Two 60-digit integers and a prime streaming into a small network, with the exact product modulo p resolving digit by digit." width="100%"></a>
 
 </div>
 
