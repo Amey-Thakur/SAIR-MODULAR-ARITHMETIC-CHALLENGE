@@ -2,6 +2,8 @@
 
 <a href="https://competition.sair.foundation/competitions/modular-arithmetic-challenge/overview" title="SAIR Foundation, open the competition"><img src=".github/assets/sair-mark.png" alt="SAIR Foundation mark, links to the competition" width="76"></a>
 
+<img src=".github/assets/modular-arithmetic.gif" alt="Two large integers and a prime streaming into a small network, with the exact product modulo p resolving digit by digit on the right." width="760">
+
 # Modular Arithmetic Challenge
 
 **Can a neural network learn exact arithmetic, rather than approximate it?**
