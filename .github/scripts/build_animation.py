@@ -95,9 +95,16 @@ def stats(d, y, cells):
     d.line([M, y, W - M, y], fill=EDGE)
     span = (W - 2 * M) / len(cells)
     for i, (big, small) in enumerate(cells):
-        x = M + span * i
-        d.text((x, y + 20), big, font=f(SEMI, 34), fill=INK)
-        d.text((x + 2, y + 66), small, font=f(UI, 16), fill=DIM)
+        last = i == len(cells) - 1
+        fb, fs = f(SEMI, 34), f(UI, 16)
+        if last:
+            # flush right, so the row is justified rather than trailing off
+            d.text((W - M - d.textlength(big, font=fb), y + 20), big, font=fb, fill=INK)
+            d.text((W - M - d.textlength(small, font=fs), y + 66), small, font=fs, fill=DIM)
+        else:
+            x = M + span * i
+            d.text((x, y + 20), big, font=fb, fill=INK)
+            d.text((x + 2, y + 66), small, font=fs, fill=DIM)
 
 
 def foot(d, competition):
@@ -113,7 +120,7 @@ def foot(d, competition):
 
 
 def pipeline(d, t, boxes):
-    x, wbox = M, 336
+    x, wbox = M, (W - 2 * M - 2 * 52) // 3      # three boxes and two gaps, flush to both margins
     for k, (a, b) in enumerate(boxes):
         on = k <= (t * 3) % 3 < k + 1
         panel(d, [x, 214, x + wbox, 320], active=on)
