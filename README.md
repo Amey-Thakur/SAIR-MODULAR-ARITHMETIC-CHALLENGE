@@ -22,12 +22,12 @@ the laboratory that question was worked in, and the model it produced.
 
 <br>
 
+[![License](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey)](LICENSE)
 [![SAIR](https://img.shields.io/badge/SAIR-Modular_Arithmetic-340825)](https://competition.sair.foundation/competitions/modular-arithmetic-challenge/overview)
 [![Status](https://img.shields.io/badge/Status-Submitted-2EA043)](https://competition.sair.foundation/competitions/modular-arithmetic-challenge/overview)
 [![Technology](https://img.shields.io/badge/Technology-Python_%7C_PyTorch-8250DF)](https://pytorch.org/)
 [![🤗 Model Hub](https://img.shields.io/badge/🤗_Model_Hub-SAIR_Modular_Arithmetic-FFD21E)](https://huggingface.co/ameythakur/SAIR-Modular-Arithmetic-Challenge)
 [![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://github.com/Amey-Thakur)
-[![License](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey)](LICENSE)
 
 <br>
 
