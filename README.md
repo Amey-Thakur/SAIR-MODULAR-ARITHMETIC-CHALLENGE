@@ -31,7 +31,7 @@ the laboratory that question was worked in, and the model it produced.
 
 <br>
 
-<a href="https://github.com/Amey-Thakur" title="Amey Thakur on GitHub"><img src=".github/assets/modular-arithmetic.gif" alt="Two 60-digit integers and a prime streaming into a small network, with the exact product modulo p resolving digit by digit." width="100%"></a>
+<a href="https://github.com/Amey-Thakur" title="Amey Thakur on GitHub"><img src=".github/assets/modular-arithmetic-sair.gif" alt="Two operands and a prime entering a small network, and the exact residue leaving it, in the SAIR Foundation card style." width="100%"></a>
 
 </div>
 
@@ -126,6 +126,16 @@ belongs to the pipeline, so there is no post-processing step to write.
 > modular arithmetic inside a single hook, any internal representation at all,
 > and a loop that feeds the model its own tokens one at a time, so long as the
 > encoder gets no feedback from the model about what to feed next.
+
+<br>
+
+<div align="center">
+
+<img src=".github/assets/modular-arithmetic.gif" alt="Two 60-digit integers and a prime streaming into a small network, with the exact product modulo p resolving digit by digit." width="100%">
+
+<sub>The same task at the scale it is actually set: operands far longer than anything the model was trained on.</sub>
+
+</div>
 
 <br>
 
