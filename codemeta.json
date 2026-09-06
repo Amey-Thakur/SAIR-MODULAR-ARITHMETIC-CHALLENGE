@@ -1,12 +1,13 @@
 {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
-    "license": "https://spdx.org/licenses/CC-BY-4.0.html",
     "name": "SAIR Modular Arithmetic Challenge",
-    "version": "1.0.0",
-    "runtimePlatform": [
-        "PyTorch 2.0+",
-        "Python 3.10+"
+    "description": "A PyTorch laboratory demonstrating 100% length generalization on modular arithmetic using Abacus Embeddings and Algorithmic Scratchpads.",
+    "identifier": "SAIR-MODULAR-ARITHMETIC-CHALLENGE",
+    "license": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "programmingLanguage": [
+        "Python",
+        "Markdown"
     ],
     "author": [
         {
@@ -16,9 +17,48 @@
             "@id": "https://orcid.org/0000-0001-5644-1575"
         }
     ],
-    "description": "A PyTorch laboratory demonstrating 100% length generalization on modular arithmetic using Abacus Embeddings and Algorithmic Scratchpads.",
-    "programmingLanguage": [
-        "Python",
-        "Markdown"
-    ]
+    "dateCreated": "2026-07-15",
+    "dateReleased": "2026-07-15",
+    "codeRepository": "https://github.com/Amey-Thakur/SAIR-MODULAR-ARITHMETIC-CHALLENGE",
+    "developmentStatus": "complete",
+    "runtimePlatform": [
+        "PyTorch 2.0+",
+        "Python 3.10+"
+    ],
+    "keywords": [
+        "Abacus Embeddings",
+        "AI Research",
+        "Algorithmic Reasoning",
+        "Competition",
+        "Curriculum Learning",
+        "Grokking",
+        "Hugging Face",
+        "Length Generalization",
+        "Machine Learning",
+        "Mathematics",
+        "Modular Arithmetic",
+        "Neural Arithmetic",
+        "PyTorch",
+        "SAIR",
+        "SAIR Foundation",
+        "Transformers",
+        "Dataset",
+        "Alberto Alfarano",
+        "Yongzheng Jia",
+        "Kristin Lauter",
+        "Cathy Li",
+        "Terence Tao",
+        "Emily Wenger",
+        "Carrying",
+        "Coordination",
+        "Reduction",
+        "Routing",
+        "Amey Thakur",
+        "amey",
+        "ameythakur",
+        "amey-thakur",
+        "ameyarc"
+    ],
+    "url": "https://competition.sair.foundation/competitions/modular-arithmetic-challenge/overview",
+    "version": "1.0.0"
 }

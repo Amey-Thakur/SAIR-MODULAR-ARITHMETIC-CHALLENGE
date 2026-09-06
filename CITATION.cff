@@ -16,3 +16,7 @@ keywords:
   - abacus embeddings
   - grokking
   - transformers
+identifiers:
+  - type: other
+    value: "2026-07-15"
+    description: "Date this repository was created on GitHub."

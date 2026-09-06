@@ -1,0 +1,29 @@
+# Modular Arithmetic Challenge
+
+> Modular Arithmetic Challenge. Neural induction of exact (a x b) mod p
+> through abacus embeddings, algorithmic scratchpads and grokking, for the
+> SAIR Foundation competition.
+
+Author: Amey Thakur, ORCID 0000-0001-5644-1575
+Licence: CC BY 4.0, attribution required
+Repository created: 15 July 2026
+
+## What is in this repository
+
+- data, 3 files
+- docs, 10 files
+- src, 23 files
+
+## Subject terms
+
+abacus-embeddings, ai-research, algorithmic-reasoning, competition,
+curriculum-learning, grokking, huggingface, length-generalization,
+machine-learning, mathematics, modular-arithmetic, neural-arithmetic,
+pytorch, sair, sair-foundation, transformers
+
+## Where this sits
+
+- This repository: https://github.com/Amey-Thakur/SAIR-MODULAR-ARITHMETIC-CHALLENGE
+- Project page: https://competition.sair.foundation/competitions/modular-arithmetic-challenge/overview
+- Author: https://github.com/Amey-Thakur
+- Research notes and reflections: https://amey-thakur.github.io/
