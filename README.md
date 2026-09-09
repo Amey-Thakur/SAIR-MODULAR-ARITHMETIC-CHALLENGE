@@ -224,7 +224,7 @@ python src/sandbox/simulate_judge.py
 
 <div align="center">
 
-**[SAIR Foundation competitions index](https://github.com/Amey-Thakur/SAIR-FOUNDATION-INDEX)**
+**[SAIR Foundation competitions index](https://github.com/Amey-Thakur/SAIR-FOUNDATION-FOR-SCIENCE-AND-AI-RESEARCH)**
 
 Every SAIR challenge, what each one asks, the dates that govern it, and where
 the work lives.
