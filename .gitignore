@@ -47,3 +47,7 @@ data/
 *.swp
 *.swo
 .DS_Store
+data/runs/
+data/partial.json
+data/*_driver.log
+data/runs_driver.log
