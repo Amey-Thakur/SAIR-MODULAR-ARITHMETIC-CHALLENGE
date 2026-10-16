@@ -26,7 +26,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 TASKS = ["add", "addmod", "mulmod"]
-ARMS = ["absolute", "rope", "abacus-input", "abacus-inject"]
+ARMS = ["absolute", "rope", "abacus-input", "abacus-inject", "abacus-offset"]
 
 
 def main() -> int:

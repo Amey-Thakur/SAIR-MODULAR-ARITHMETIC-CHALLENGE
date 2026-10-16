@@ -26,7 +26,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 Z = 1.959964
 TASKS = [("add", "a + b"), ("addmod", "(a + b) mod p"), ("mulmod", "(a x b) mod p")]
-ARMS = ["absolute", "rope", "abacus-input", "abacus-inject"]
+ARMS = ["absolute", "rope", "abacus-input", "abacus-inject", "abacus-offset"]
 
 
 def wilson(x: int, n: int):
