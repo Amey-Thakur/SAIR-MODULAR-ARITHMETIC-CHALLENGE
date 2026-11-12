@@ -39,6 +39,19 @@ the laboratory that question was worked in, and the model it produced.
 
 <br>
 
+## Paper
+
+The work in this repository is written up as a preprint, dated
+11 November 2026.
+
+> **Place Value, Not Position: Length Generalisation Limits in Neural Modular Arithmetic**
+
+The compiled PDF is archived in the research index, at
+[`papers/I-modular-arithmetic.pdf`](https://github.com/Amey-Thakur/SAIR-FOUNDATION-FOR-SCIENCE-AND-AI-RESEARCH/blob/main/papers/I-modular-arithmetic.pdf). The index carries the preprint identifier
+once it is live, and lists the other four papers from this programme.
+
+---
+
 ## The problem
 
 Give a calculator two numbers and a prime and it returns the remainder without
